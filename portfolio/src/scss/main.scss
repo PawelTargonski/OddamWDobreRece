@@ -1,7 +1,17 @@
-body {
-  
+@import './settings/_colors.scss';
+@import './settings/_fonts.scss'; 
 
-    background-color: green;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   
- 
+}
+
+body {
+  background-color: $color-2;
+}
+
+h1{
+  font-family: $font-base;
+}
