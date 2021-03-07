@@ -5,3 +5,5 @@ export const LOGOUT = '/logout';
 export const CONTACT = '/contact';
 export const ABOUTUS = '/aboutus';
 export const TREECOLUMNS = '/treecolumns';
+export const WHODOWEHELP = '/whodowehelp';
+export const HERO = '/hero';

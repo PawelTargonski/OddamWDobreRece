@@ -10,11 +10,15 @@
 @import '../components/LoginLayout/_Login.scss';
 @import '../components/LoginLayout/_Register.scss';
 @import '../components/LoginLayout/_Logout.scss';
-@import '../components/Main/_Main.scss';
+@import '../components/Hero/_Hero.scss';
 @import '../components/Navigation/_Navigation.scss';
 @import '../components/TreeColumns/_TreeColumns.scss';
 @import '../components/WhoDoWeHelp/_WhoDoWeHelp.scss';
 
+body {
+    max-width: 1900px;
+    font-family: $font-base;
+}
 
 
 
