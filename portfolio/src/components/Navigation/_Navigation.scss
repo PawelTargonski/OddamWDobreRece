@@ -1,36 +1,5 @@
 .Header{
-    //display: flex;
-    .Menu{
-        max-width: 638px;
-        height: 95px;
-        margin-left: 1075px;
-        margin-top: 37px;
-        position: absolute;
-            .UpperMenuHeaderNavigator{
-                display: flex;
-                justify-content: space-between;
-                padding-left: 420px;
-                .MenuHeaderListUpLink{
-                    padding-left: 30px;
-                    padding-right: 10px;
-                    font-size: 14px;
-                    color:$color-4;
-                    text-decoration: none;
-                    opacity: 1;
-                }
-            }
-            .MenuHeaderNavigatior{
-                display: flex;
-                justify-content: space-between;
-                padding-top: 53px;
-                .MenuHeaderListLink{
-                    font-size: 18px;
-                    text-decoration: none;
-                    color: $color-5;
-                    padding-left: 35px;
-                }
-            }
-    }
+    display: flex;
     .HeroImage{
         margin-top: 0px;
         margin-left: -483px;
@@ -39,7 +8,57 @@
         background: transparent url('../../assets/Home-Hero-Image.jpg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
-    .HeaderHero{
+    .HeaderContainer{
+        display: block;
         
+        .Menu{
+            max-width: 638px;
+            height: 95px;
+            margin-left: 240px;
+            margin-top: 37px;
+            
+                    .UpperMenuHeaderNavigator{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-left: 420px;
+                    .MenuHeaderListUpLink{
+                        padding-left: 30px;
+                        padding-right: 10px;
+                        font-size: 14px;
+                        color:$color-4;
+                        text-decoration: none;
+                        opacity: 1;
+                    }
+                }
+                .MenuHeaderNavigatior{
+                    display: flex;
+                    justify-content: space-between;
+                    padding-top: 53px;
+                    .MenuHeaderListLink{
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: $color-5;
+                        padding-left: 35px;
+                    }
+                }
+        }
+        .HeaderHero{
+            margin-left: -100px;
+            margin-top: 210px;
+            color: $color-5;
+            opacity: 1;
+            text-align: center;
+            letter-spacing: -0.76px;
+            line-height: 1.5; 
+            font-size: 38px;
+            .HeroDecoration{
+                background: transparent url('../../assets/Decoration.svg') 0% 0% no-repeat padding-box;
+                opacity: 1;
+                width: 253px;
+                height: 33px;
+                margin-top: 25px;
+                margin-left: 350px;;
+            }
+        }
     }
 }
