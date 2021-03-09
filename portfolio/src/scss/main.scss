@@ -1,21 +1,5 @@
 @import './settings/_reset.scss';
-@import './settings/_colors.scss';
-@import './settings/_fonts.scss'; 
-@import '../components/AboutUs/_AboutUs.scss';
-@import '../components/Contact/_Contact.scss';
-@import '../components/EasySteps/_EasySteps.scss';
-@import '../components/Footer/_Footer.scss';
-@import '../components/Formular/_Formular.scss';
-@import '../components/Home/_Home.scss';
-@import '../components/LoginLayout/_Login.scss';
-@import '../components/LoginLayout/_Register.scss';
-@import '../components/LoginLayout/_Logout.scss';
-@import '../components/Hero/_Hero.scss';
-@import '../components/Navigation/_Navigation.scss';
-@import '../components/TreeColumns/_TreeColumns.scss';
-@import '../components/WhoDoWeHelp/_WhoDoWeHelp.scss';
-@import '../components/Navigation/_HeaderButtons.scss';
-
+@import './settings/_fonts.scss';
 body {
     max-width: 1900px;
     font-family: $font-base;

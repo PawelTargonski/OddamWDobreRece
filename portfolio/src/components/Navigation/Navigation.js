@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
 import Buttons from './HeaderButtons.js';
+import './_Navigation.scss';
 const Navigation = () => (
     <div className="Header">
             <div className='HeroImage'/>
