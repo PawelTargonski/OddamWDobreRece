@@ -10,6 +10,21 @@
     }
     .ContactHero{
         width: 528px;
-        //margin-left: 1230px;
+        h1{
+            margin-top: 200px;
+            text-align: center;
+            font-size: 38px;
+            letter-spacing: -0.76px;
+            color: $color-5;
+            opacity: 1;
+        }
+        .ContactHeroDecoration{
+            background: transparent url('../../assets/Decoration.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            width: 253px;
+            margin-top: 25px;
+            margin-left: 135px;
+            height: 33px;
+            }
     }    
 }

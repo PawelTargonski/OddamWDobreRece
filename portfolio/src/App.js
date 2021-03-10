@@ -11,7 +11,7 @@ import Logout from './components/LoginLayout/Logout.js';
 import TreeColumns from './components/TreeColumns/TreeColumns.js';
 import WhoDoWeHelp from './components/WhoDoWeHelp/WhoDoWeHelp.js';
 import EasySteps from './components/EasySteps/EasySteps.js';
-import Formular from './components/Formular/Formular.js';
+import Formular from './components/Contact/Formular/Formular.js';
 import Contact from './components/Contact/Contact.js';
 import AboutUs from './components/AboutUs/AboutUs.js';
 import Footer from './components/Footer/Footer.js';
