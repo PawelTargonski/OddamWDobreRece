@@ -1,0 +1,15 @@
+@import '../../scss/settings/colors';
+
+.Contact{
+    height: 1026px;
+    display: flex;
+    .ContactImage{
+        background: transparent url('../../assets/BackgroundContactForm.jpg') 0% 0% no-repeat padding-box;
+        height: 1026px;
+        width: 1230px;
+    }
+    .ContactHero{
+        width: 528px;
+        //margin-left: 1230px;
+    }    
+}

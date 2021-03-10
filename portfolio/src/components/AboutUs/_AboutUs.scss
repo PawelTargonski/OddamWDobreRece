@@ -1,0 +1,49 @@
+@import '../../scss/settings/_colors.scss';
+.AboutUsContainer{
+    height: 935px;
+    width: auto;
+    display: flex;
+    margin-top: 80px;
+    .AboutUsHero{
+        width: 942px;
+        background: $color-1 0% 0% no-repeat padding-box;
+        h1{
+            margin-top: 168px;
+            letter-spacing: -0.76px;
+            color: $color-5;
+            opacity: 1;
+            font-style: 38px;
+        }
+        .AboutUsDecoration{
+        background: transparent url('../../assets/Decoration.svg') 0% 0% no-repeat padding-box;
+        opacity: 1;
+        width: 253px;
+        margin-top: 40px;
+        margin-left: 352px;
+        height: 33px;
+        }
+        h2{
+            margin-top: 65px;
+            margin-left: 149px;
+            margin-right: 152px;
+            text-align: center;
+            font-size: 30px;
+            letter-spacing: -0.6px;
+            color: $color-5;
+            opacity: 1;
+            line-height: 54px;
+        }
+        .AboutUsSignature{
+            background: transparent url('../../assets/Signature.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            margin-left: 597px;
+            height: 115px;
+            margin-top: 50px;
+        }
+    }
+    .AboutUsImage{
+        background: transparent url('../../assets/People.jpg') 0% 0% no-repeat padding-box;
+        width: 942px;
+    }
+    
+}

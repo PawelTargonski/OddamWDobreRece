@@ -1,0 +1,58 @@
+@import '../../scss/settings/colors';
+.WhoDoWeHelp{
+    margin-top: 70px;
+    margin-left: 278px;
+    width: 1344px;
+    height: 862px;
+    .WhoDoWeHelpTitle{
+        text-align: center;
+        font-size: 38ps;
+        letter-spacing: -0.76px;
+        color: $color-5;
+        opacity: 1;
+        .WhoDoWeHelpDecoration{
+            background: transparent url('../../assets/Decoration.svg') 0% 0% no-repeat padding-box;
+            opacity: 1;
+            width: 253px;
+            margin-top: 25px;
+            margin-left: 546px;
+            height: 33px;
+            }
+    }
+    .WhoDoWeHelpHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 708px;
+        height: 79px;
+        margin-left: 314px;
+        .WhoDoWeHelpBox{
+            width: 208px;
+            height: 79px; 
+            text-align: center;  
+            margin-top: 80px; 
+            font-size: 24px;
+            text-align: center;
+            background-color: #fff;
+            letter-spacing: 0px;
+            opacity: 1;
+            text-decoration: none;
+            color: $color-5;
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .WhoDoWeHelpHero{
+        p{
+            width: 640px;
+            height: 94px;
+            text-align: center;
+            font-size: 22px;
+            letter-spacing: 0px;
+            color: $color-5;
+            opacity: 1;
+            margin-left: 352px;
+            margin-top: 80px;
+        }
+    }
+}

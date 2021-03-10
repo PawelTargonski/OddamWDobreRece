@@ -4,9 +4,9 @@ import { NavLink } from 'react-router-dom';
 import * as ROUTES from '../../constants/routes';
 import Buttons from './HeaderButtons.js';
 import './_Navigation.scss';
-// import '../TreeColumns/TreeColumns.js';
+
 const Navigation = () => (
-    <div className="Header">
+    <div className="Header" id='Header'>
             <div className='HeroImage'/>
             <div className='HeaderContainer'>
                 <div className="Menu">
@@ -16,14 +16,20 @@ const Navigation = () => (
                     </ul>
                     <div className="MenuHeaderNavigatior">
                         <Link class="MenuHeaderListLink" 
-                            activeClass="active"
+                            to="Header"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
+                            duration={1000}
+                            >Start
+                        </Link>    
+                        <Link class="MenuHeaderListLink" 
                             to="TreeColumns"
                             spy={true}
                             smooth={true}
                             offset={50}
                             duration={1000}
-                            >Start
-                            
+                            >O co chodzi ?
                         </Link>    
                         <Link class="MenuHeaderListLink" 
                             activeClass="active"
