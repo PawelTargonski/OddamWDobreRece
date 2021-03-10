@@ -5,8 +5,10 @@
     display: flex;
     .ContactImage{
         background: transparent url('../../assets/BackgroundContactForm.jpg') 0% 0% no-repeat padding-box;
+        background-blend-mode: overlay;
         height: 1026px;
         width: 1230px;
+        opacity: 20%;
     }
     .ContactHero{
         width: 528px;

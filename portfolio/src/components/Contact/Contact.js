@@ -6,7 +6,7 @@ const Contact = () => (
     <div className='Contact' id='Contact'>
         <div className='ContactImage'/>
         <div className='ContactHero'>
-            <h1>Skontaktuj się z nami!</h1>
+            <h1>Skontaktuj się z nami</h1>
             <div className='ContactHeroDecoration'/>
             <Formular/>
         </div>
