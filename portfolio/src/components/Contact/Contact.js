@@ -9,6 +9,11 @@ const Contact = () => (
             <h1>Skontaktuj się z nami</h1>
             <div className='ContactHeroDecoration'/>
             <Formular/>
+            <div className="Footer">
+                <div className='FooterLabel'>Copyright by Coders Lab</div>
+                <div className='ImageFb' alt=''/>
+                <div className='ImageInst' alt=''/>
+                </div>
         </div>
     </div>
 )

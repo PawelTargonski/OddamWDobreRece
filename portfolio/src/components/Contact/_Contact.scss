@@ -28,5 +28,28 @@
             margin-left: 135px;
             height: 33px;
             }
+    }
+    .Footer{
+        font-size: 18px;
+        letter-spacing: 0px;
+        color: $color-5;
+        opacity: 1;
+        margin-left: -350px;
+        margin-top: 450px;
+        display: flex;
+        .ImageFb{
+            width: 30px;
+            height: 30px;
+            background: transparent url('../../assets/Facebook.svg') 0% 0% no-repeat padding-box;
+            margin-bottom: 40px;
+            padding-right: 20px;
+            margin-left: 520px;
+        }
+        .ImageInst{
+            width: 30px;
+            height: 30px;
+            background: transparent url('../../assets//Instagram.svg') 0% 0% no-repeat padding-box;
+            margin-bottom: 40px;
+        }
     }    
 }
