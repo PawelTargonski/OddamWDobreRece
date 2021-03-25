@@ -3,9 +3,9 @@
     display: flex;
     .HeroImage{
         margin-top: 0px;
-        margin-left: -483px;
-        width: 1368px;
-        height: 963px;
+        margin-left: -25vw;
+        width: 70vw;
+        height: 100vh;
         background: transparent url('../../assets/Home-Hero-Image.jpg') 0% 0% no-repeat padding-box;
         opacity: 1;
     }
@@ -13,19 +13,18 @@
         display: block;
         
         .Menu{
-            max-width: 638px;
-            height: 95px;
-            margin-left: 240px;
-            margin-top: 37px;
+            // max-width: 638px;
+            // height: 95px;
+            margin-left: 10vw;
+            margin-top: 5vh;
             
                     .UpperMenuHeaderNavigator{
                     display: flex;
                     justify-content: space-between;
-                    padding-left: 420px;
+                    padding-left: 25vw;
                     .MenuHeaderListUpLink{
-                        padding-left: 30px;
-                        padding-right: 10px;
-                        font-size: 14px;
+                        padding-left: 3vw;
+                        font-size: 0.875rem ;
                         color:$color-4;
                         text-decoration: none;
                         opacity: 1;
@@ -34,30 +33,28 @@
                 .MenuHeaderNavigatior{
                     display: flex;
                     justify-content: space-between;
-                    padding-top: 53px;
+                    padding-top: 5vh;
                     .MenuHeaderListLink{
-                        font-size: 18px;
+                        font-size: 1.125rem;
                         text-decoration: none;
                         color: $color-5;
-                        padding-left: 35px;
-                        letter-spacing: 0px;
+                        //  letter-spacing: 0px;
                         opacity: 1;
                     }
                 }
         }
         .HeaderHero{
-            margin-left: -100px;
-            margin-top: 210px;
+            margin-top: 20vh;
             color: $color-5;
             opacity: 1;
             text-align: center;
             letter-spacing: -0.76px;
             line-height: 1.5; 
-            font-size: 38px;
+            font-size: 2.375rem;
             .HeroDecoration{
                 background: transparent url('../../assets/Decoration.svg') 0% 0% no-repeat padding-box;
                 opacity: 1;
-                width: 253px;
+                // width: px;
                 height: 33px;
                 margin-top: 25px;
                 margin-left: 235px;
